@@ -1,0 +1,61 @@
+# Built files and directories
+*.iml
+.gradle/
+/build/
+**/build/
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Local / Environment / SDK configuration
+/local.properties
+local.properties
+*.env
+.env.*
+
+# Android outputs & Signing
+*.apk
+*.aab
+*.dex
+*.keystore
+*.jks
+keystore.properties
+*.pem
+*.key
+
+# IDE / Android Studio
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/shelf/
+/.idea/indexLayout.xml
+.DS_Store
+Thumbs.db
+
+# Python & Chaquopy cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# yt-dlp Cookies & Secret credentials
+cookies.txt
+*.cookie
+*.cookies
+
+# Temporary & Downloaded Media files
+*.webm
+*.m4a
+*.mp4
+*.mkv
+*.3gp
+*.part
+*.ytdl
+*.temp
+*.tmp
